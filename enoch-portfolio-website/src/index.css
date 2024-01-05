@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -86,7 +89,7 @@ a:hover{
   color: var(--color-white);
 }
 
-btn{
+.btn{
   width: max-content;
   display: inline-block;
   color: var(--color-primary);

@@ -1,15 +1,28 @@
 import React from 'react';
-import "./header.css";
+import "../Header/header.css";
 import CTA from './CTA';
+import Self from '../../Assets/me.png'
+import HeaderSocials from './Socials'; 
 
 const Header = () => {
   return (
     <header> 
-      <div className=".container.header__container">{/*BEM css styling */}
-        <h5>Hello, I'm</h5> 
+      <div className="container header__container">{/*BEM css styling */}
+        <h5>Hi, I'm</h5> 
         <h1>Enoch He</h1>
-        <h5 className='text-light'>Frontend Developer</h5>
+        <h5 className='text-light'>Frontend Software Developer</h5>
         <CTA />
+        <HeaderSocials />
+
+        <div className="me">
+          <img src={Self} alt="My picture!"/>
+        </div>
+
+        <a href="#contact" className="scroll-down">
+          Scroll Down
+        </a> 
+
+
       </div>
     </header>
   )
