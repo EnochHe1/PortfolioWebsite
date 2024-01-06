@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,10 +10,10 @@
   outline: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-:root{
+:root {
   --color-bg: #1f1f38; /* Variables for CSS*/
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
@@ -24,9 +23,9 @@
 
   --transition: all 400ms ease;
 
-  --container-width-lg:  75%;  /* for varying screen sizes, media queries */
+  --container-width-lg: 75%; /* for varying screen sizes, media queries */
   --container-width-md: 86%;
-  --container-width-sm: 90%; 
+  --container-width-sm: 90%;
 }
 
 html {
@@ -34,12 +33,14 @@ html {
 }
 
 ::-webkit-scrollbar {
-  display:none;
+  display: none;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
-  background: var(--color-bg); /*dis is how you use CSS variables on different properties of ur elements */
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(
+    --color-bg
+  ); /*dis is how you use CSS variables on different properties of ur elements */
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/Assets/bg-texture.png);
@@ -47,36 +48,40 @@ body{
 
 /*General Styles*/
 
-.container{
+.container {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
 }
 
-section{
-  margin-top:8rem;
-
+section {
+  margin-top: 8rem;
+  height: 100vh;
 }
 
-section > h5{
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-section > h2{
+section > h2 {
   text-align: center;
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
 
-.text-light{
+.text-light {
   color: var(--color-light);
 }
 
@@ -85,11 +90,11 @@ a {
   transition: var(--transition);
 }
 
-a:hover{
+a:hover {
   color: var(--color-white);
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -100,7 +105,7 @@ a:hover{
   transition: var(--transition);
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
@@ -111,7 +116,7 @@ a:hover{
   color: var(--color-bg);
 }
 
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -120,21 +125,21 @@ img{
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
-  .container{
-    width: var(--container-width-md)
+  .container {
+    width: var(--container-width-md);
   }
 
-  section{
+  section {
     margin-top: 6rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .container{
-    width: var(--container-width-sm)
+  .container {
+    width: var(--container-width-sm);
   }
 
-  section > h2{
+  section > h2 {
     margin-bottom: 2rem;
   }
 }

@@ -1,0 +1,35 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 2.5rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(10px); /*blur effect!*/
+}
+
+nav a {
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  /* for hovering on icon*/
+  background: rgba(0, 0, 0, 0.1);
+}
+
+nav a.active {
+  /* descendant of nav which is anchor tag and also has class .active*/
+  /* for being on active icon*/
+  background: var(--color-bg);
+  color: var(--color-white);
+}
