@@ -16,7 +16,8 @@ nav {
 
 nav a {
   background: transparent;
-  border-radius: 50%;
+  padding: 0.5rem;
+  border-radius: 90%;
   display: flex;
   color: var(--color-primary);
   font-size: 1.2rem;
@@ -24,7 +25,8 @@ nav a {
 
 nav a:hover {
   /* for hovering on icon*/
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--color-white);
 }
 
 nav a.active {
