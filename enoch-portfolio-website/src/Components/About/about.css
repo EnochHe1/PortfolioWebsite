@@ -17,6 +17,7 @@
   );
   display: grid;
   place-items: center; /*both justify-content and align-items are centered*/
+  margin-top: 1rem;
 }
 
 .about__me-image {
@@ -31,6 +32,7 @@
 }
 
 .about__cards {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
@@ -74,6 +76,7 @@
 .about__content a {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -84,7 +87,7 @@
 
   .about__me {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 2rem auto 2rem;
   }
 
   .about__content p {
@@ -92,7 +95,7 @@
   }
 
   .about__content a {
-    margin: 2rem auto 4rem; /* Adjust the top and bottom margins as needed */
+    margin: 2rem auto 0; /* Adjust the top and bottom margins as needed */
     display: block;
     text-align: center;
   }
