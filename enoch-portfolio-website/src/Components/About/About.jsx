@@ -42,7 +42,7 @@ const About = () => {
            high school education. When I'm not learning or coding (or both!), you can find me reading novels
            or watching movies with my friends. I'm always eager to make new connections and explore new opportunities, so don't hesitate to reach out! </p>
 
-           <a href="#contact" className="btn btn-primary">Let's Talk</a>
+           <a href="#contact" className="btn btn-primary">Let's Talk!</a>
         </div>
       </div>
     </section>

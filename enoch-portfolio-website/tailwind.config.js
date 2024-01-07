@@ -1,4 +1,4 @@
-const { default: Header } = require('./src/Components/Header/Header');
+
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
