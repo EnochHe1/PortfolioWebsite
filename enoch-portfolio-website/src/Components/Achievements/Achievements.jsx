@@ -1,6 +1,21 @@
 import React from 'react';
 import "./achievements.css";
 
+const data = [
+  {
+    achievement: "Best Web Award @ Ignition Hacks (2023)",
+    description: "Out of a Pool of 700+ Hackers at IgnitionHacks v.3, my team and I received the Best Web Award alongside $2750 in prizes total."
+  },
+  {
+    achievement: "UWaterloo Avogadro Contest International Champion (2022)",
+    description: "Out of nearly 5000 students across the world, I placed first with a perfect score on University of Waterloo's chemistry contest.",
+  },
+  {
+    achievement: "Ninth Place in the CaYPT National Tournament (2022)",
+    description: "As team captain of my school's Canadian Young Physicists' Tournament team, I led our team to place ninth place overall in the national tournament."
+  }
+]
+
 const Achievements = () => {
   return (
     <section id="achievements">
@@ -8,26 +23,19 @@ const Achievements = () => {
       <h2>Achievements</h2>
 
       <div className="container achievements_container">
-        <article className="achievement">
-          <h2>Best Web Award @ Ignition Hacks (2023)</h2>
-          <br/>
-          <small>Out of a Pool of 700+ Hackers at IgnitionHacks v.3, my team and I received the Best Web Award alongside $2750 in prizes total. 
-          </small>
-        </article>
-
-        <article className="achievement">
-          <h2>UWaterloo Avogadro Contest International Champion (2022) </h2>
-          <br/>
-          <small>Out of nearly 5000 students across the world, I placed first with a perfect score on University of Waterloo's chemistry contest.  
-          </small>
-        </article>
-
-        <article className="achievement">
-          <h2>Ninth Place in the CaYPT National Tournament (2022) </h2>
-          <br/>
-          <small>As team captain of my school's Canadian Young Physicist's Tournament team, I led our team to place ninth place overall in the national tournament.  
-          </small>
-        </article>
+        { /* enter javascript mode  with braces, You can put any valid JavaScript expression inside the curly braces */
+          data.map(({achievement, description}, index) => { 
+            /*achievement and description are alr variables defined, index is the actual index in the array*/
+            return(
+              <article key={index} className="achievement"> 
+                <h2>{achievement}</h2>
+                <br/>
+                <small>{description}
+                </small>
+            </article>
+            )
+          })
+        }
 
         <article className="testscores">
         <h2>Test Scores </h2>

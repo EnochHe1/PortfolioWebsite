@@ -37,7 +37,24 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .container.achievements__container {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .container.achievements__container {
+    width: var(--container-width-sm);
+    margin: 0 auto; /* ensures centering*/
+  }
+
+  .achievement {
+    width: var(--container-width-sm);
+    margin: 0 auto;
+  }
+
+  .testscores {
+    width: var(--container-width-sm);
+    margin: 0 auto;
+  }
 }
