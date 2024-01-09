@@ -11,17 +11,17 @@ const Contacts = () => {
 
       <div className="container contacts__container">
         <div className="contacts__options">
-          <article classNName="contacts__option">
-            <MdOutlineEmail/>
+          <article className="contacts__option">
+            <MdOutlineEmail className="contacts__option-icon"/>
             <h4>Email</h4>
             <h5>e34he@uwaterloo.ca</h5>
-            <a href="mailto:e34he@uwaterloo.ca" target="_blank">Send a Message</a>
+            <a href="mailto:e34he@uwaterloo.ca" target="_blank" rel="noopener noreferrer">Send a Message</a> {/* rel="noopener noreferrer" basically increases security/privacy */}
           </article>
-          <article classNName="contacts__option">
-            <FaLinkedin/>
+          <article className="contacts__option">
+            <FaLinkedin className="contacts__option-icon"/>
             <h4>LinkedIn</h4>
             <h5>Enoch He</h5>
-            <a href="https://www.linkedin.com/in/enoch-he-ab3600198/message/" target="_blank" rel="noopener noreferrer">Send a Message</a>
+            <a href="https://www.linkedin.com/in/enoch-he-ab3600198/message/" target="_blank" rel="noopener noreferrer">Send a Message</a> {/* _blank for target means open in new window */}
           </article>
         </div>
         <form action="">
