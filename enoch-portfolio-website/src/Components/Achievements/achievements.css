@@ -1,5 +1,6 @@
 . container.achievements__container {
   width: 40%;
+  padding: 4rem;
 }
 
 .achievement {
@@ -14,7 +15,8 @@
   color: var(--color-light);
   font-weight: 300;
   width: 80%;
-  margin: 0.8rem auto 0;
+  margin: 2rem 6rem 5.66rem 6rem;
+  padding: 0 5rem;
   text-align: center;
   display: block;
 }
@@ -31,14 +33,27 @@
   color: var(--color-light);
   font-weight: 300;
   width: 80%;
-  margin: 0.8rem auto 0;
+  margin: 0 auto 2rem;
   text-align: center;
   display: block;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
 }
 
 @media screen and (max-width: 1024px) {
   .container.achievements__container {
     width: 60%;
+  }
+
+  .achievement > small {
+    margin: 0rem 4rem 0 4rem;
+    padding-bottom: 6rem;
+  }
+
+  .testscore {
+    padding-bottom: 2.2rem;
   }
 }
 
@@ -46,6 +61,7 @@
   .container.achievements__container {
     width: var(--container-width-sm);
     margin: 0 auto; /* ensures centering*/
+    height: 40vh;
   }
 
   .achievement {
@@ -53,8 +69,17 @@
     margin: 0 auto;
   }
 
+  .achievement > small {
+    margin: 0rem 2rem 1rem 2rem;
+    padding-bottom: 1rem;
+  }
+
   .testscores {
     width: var(--container-width-sm);
     margin: 0 auto;
+  }
+
+  .testscore {
+    padding-bottom: 15rem;
   }
 }
