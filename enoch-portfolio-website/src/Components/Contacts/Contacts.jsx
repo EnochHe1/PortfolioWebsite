@@ -2,8 +2,25 @@ import React from 'react';
 import "./contacts.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import { useRef } from 'react';
+import emailjs from "emailjs-com";
 
 const Contacts = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => { {/* from https://www.emailjs.com/docs/examples/reactjs/ */}
+    e.preventDefault();
+
+    emailjs.sendForm('service_acz72ed', 'template_z9jevou', form.current, 'W8XWaQXhr4ViTcozP') 
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    
+    e.target.reset(); {/*Once sent message, all the inputted fields are refreshed and blank again */}
+  };
+
   return (
     <section id="contact">
       <h5>Get in Touch...</h5>
@@ -24,7 +41,7 @@ const Contacts = () => {
             <a href="https://www.linkedin.com/in/enoch-he-ab3600198/message/" target="_blank" rel="noopener noreferrer">Send a Message</a> {/* _blank for target means open in new window */}
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Full Name" required/>
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
