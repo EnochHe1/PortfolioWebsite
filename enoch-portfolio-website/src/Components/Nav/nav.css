@@ -32,6 +32,6 @@ nav a:hover {
 nav a.active {
   /* descendant of nav which is anchor tag and also has class .active*/
   /* for being on active icon*/
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
