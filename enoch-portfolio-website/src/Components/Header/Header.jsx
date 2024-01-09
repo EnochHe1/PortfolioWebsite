@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container header__container">{/*BEM css styling */}
         <h5>Hi, I'm</h5> 
         <h1>Enoch He</h1>
-        <h5 className='text-light'>Frontend Software Developer</h5>
+        <h5 className='text-light'>Aspiring Full-Stack Software Developer</h5>
         <CTA />
         <HeaderSocials />
 
@@ -18,7 +18,7 @@ const Header = () => {
           <img src={Self} alt="My picture!"/>
         </div>
 
-        <a href="#contact" className="scroll-down">
+        <a href="#contacts" className="scroll-down">
           Scroll Down
         </a> 
 

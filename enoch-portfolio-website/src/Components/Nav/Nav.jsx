@@ -15,7 +15,7 @@ const Nav = () => {
       <a href="#about" onClick={()=> setActiveNav('#about')} className= {activeNav === "#about" ? 'active' : '' }><AiOutlineUser/></a> {/* href="#some-id" would scroll to an element on the current page such as <div id="some-id"> */}
       <a href="#experience" onClick={()=> setActiveNav('#experience')} className= {activeNav === "#experience" ? 'active' : '' }><BiBook /></a>
       <a href="#services" onClick={()=> setActiveNav('#services')} className= {activeNav === "#services" ? 'active' : '' }><MdLaptopChromebook /></a>
-      <a href="#contact" onClick={()=> setActiveNav('#contact')} className= {activeNav === "#contact" ? 'active' : '' } ><BiMessageSquareDetail /></a>
+      <a href="#contacts" onClick={()=> setActiveNav('#contact')} className= {activeNav === "#contact" ? 'active' : '' } ><BiMessageSquareDetail /></a>
     </nav>
   )
 }
