@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           <p>Hi there! My name is Enoch and I'm a Computer Science student 
-           at the University of Waterloo pursuing a BCs. I'm currently a Front-End Developer at
+           at the University of Waterloo pursuing a BCs. I'm currently a Full-Stack Developer at
            SlimeScholars, a startup that encourages students to learn by gamifying 
            high school education. When I'm not learning or coding (or both!), you can find me reading novels
            or watching movies with my friends. I'm always eager to make new connections and explore new opportunities, so don't hesitate to reach out! </p>
