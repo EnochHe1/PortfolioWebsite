@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
             <PiSuitcaseSimple className="about__icon"/>
               <h5>Experience</h5>
-                <small>2 Months Working</small> {/*reduce font-size by 1 with small html tag*/}
+                <small>3 Months Working</small> {/*reduce font-size by 1 with small html tag*/}
             </article> {/*article tag = independent, self-contained content. */}
             <article className="about__card">
             <LuFolderCheck className="about__icon"/>
