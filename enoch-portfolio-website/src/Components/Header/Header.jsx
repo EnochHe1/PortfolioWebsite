@@ -6,7 +6,7 @@ import HeaderSocials from './Socials';
 
 const Header = () => {
   return (
-    <header> 
+    <header id="home"> 
       <div className="container header__container">{/*BEM css styling */}
         <h5>Hi, I'm</h5> 
         <h1>Enoch He</h1>
@@ -15,7 +15,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={Self} alt="My picture!"/>
+          <img src={Self} alt="Me!"/>
         </div>
 
         <a href="#contacts" className="scroll-down">
