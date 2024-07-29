@@ -3,14 +3,22 @@ import "../Header/header.css";
 import CTA from './CTA';
 import Self from '../../Assets/me.png'
 import HeaderSocials from './Socials'; 
+import Typewriter from './Typewriter';
 
 const Header = () => {
+  const words = ["Aspiring Professional Software Engineer",
+                 "Computer Science + AI Student @ UWaterloo", 
+                 "Software QA Developer Co-op @ Polaris Intelligence (2024)",
+                 "Software Engineering Fellow @ Headstarter AI (2024)"];
+
   return (
     <header id="home"> 
       <div className="container header__container">{/*BEM css styling */}
         <h5>Hi, I'm</h5> 
         <h1>Enoch He</h1>
-        <h5 className='text-light'>Aspiring Full-Stack Software Developer</h5>
+        <h5 className='text-light'>
+          <Typewriter words={words} speed={75} pause={2500} />
+        </h5>
         <CTA />
         <HeaderSocials />
 

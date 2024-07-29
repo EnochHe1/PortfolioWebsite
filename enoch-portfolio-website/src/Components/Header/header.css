@@ -10,6 +10,10 @@ header {
   position: relative;
 }
 
+.text-light {
+  min-height: 22px;
+}
+
 /* CALL TO ACTION BUTTONS BELOW */
 
 .cta {
