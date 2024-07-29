@@ -1,7 +1,6 @@
 # Portfolio Website
 
-<img width="1440" alt="image" src="https://github.com/EnochHe1/PortfolioWebsite/assets/133233938/77dcf96a-8761-463a-aabb-1ae71049c5bb">
-
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/76e53dc2-c31e-4469-9655-cf9a65b4def5">
 <p align="center">
   Check out my website here: https://enoch-he.vercel.app/ !
 </p>
