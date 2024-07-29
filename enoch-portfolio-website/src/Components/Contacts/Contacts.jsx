@@ -8,7 +8,7 @@ import emailjs from "emailjs-com";
 const Contacts = () => {
   const form = useRef();
 
-  const sendEmail = (e) => { {/* from https://www.emailjs.com/docs/examples/reactjs/ */}
+  const sendEmail = (e) => { /* from https://www.emailjs.com/docs/examples/reactjs/ */
     e.preventDefault();
 
     emailjs.sendForm('service_acz72ed', 'template_z9jevou', form.current, 'W8XWaQXhr4ViTcozP') 
@@ -18,7 +18,7 @@ const Contacts = () => {
           console.log(error.text);
       });
     
-    e.target.reset(); {/*Once sent message, all the inputted fields are refreshed and blank again */}
+    e.target.reset(); /*Once sent message, all the inputted fields are refreshed and blank again */
   };
 
   return (

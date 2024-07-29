@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
             <PiSuitcaseSimple className="about__icon"/>
               <h5>Experience</h5>
-                <small>1 Month Working</small> {/*reduce font-size by 1 with small html tag*/}
+                <small>3 Months Working</small> {/*reduce font-size by 1 with small html tag*/}
             </article> {/*article tag = independent, self-contained content. */}
             <article className="about__card">
             <LuFolderCheck className="about__icon"/>
@@ -36,11 +36,13 @@ const About = () => {
             </article> {/*article tag = independent, self-contained content. */}
           </div>
 
-          <p>Hi there! My name is Enoch and I'm a Computer Science student 
-           at the University of Waterloo pursuing a BCs. I'm currently a Front-end Developer at
-           SlimeScholars, a startup that encourages students to learn by gamifying 
-           high school education. When I'm not learning or coding (or both!), you can find me reading novels
-           or watching movies with my friends. I'm always eager to make new connections and explore new opportunities, so don't hesitate to reach out! </p>
+          <p>Hi there! My name is Enoch and I'm a student 
+           at the University of Waterloo pursuing a major in computer science and a specialization in AI. 
+           I'm currently a Software QA Developer at
+           Polaris Intelligence, a company that specializes in business data analytics & marketing. 
+           When I'm not learning or coding, you can find me doing escape rooms,
+           watching movies with my friends, or swimming with the Trillium Y Masters Swim Club (TYMS). 
+           I'm always eager to make new connections and explore new opportunities, so don't hesitate to reach out! </p>
 
            <a href="#contacts" className="btn btn-primary">Let's Talk!</a>
         </div>

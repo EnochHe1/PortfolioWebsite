@@ -20,7 +20,7 @@ const Portfolio = () => {
           </div>
           <h3>Verbalyst</h3>
           <div className="portfolio__item-button">
-            <a href="https://github.com/EnochHe1/Verbalyst" className="btn btn-primary" target="_blank">Github</a>
+            <a href="https://github.com/EnochHe1/Verbalyst" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -29,7 +29,7 @@ const Portfolio = () => {
           </div>
           <h3>Summazon</h3>
           <div className="portfolio__item-button">
-            <a href="https://github.com/EnochHe1/Summazon" className="btn btn-primary" target="_blank">Github</a>
+            <a href="https://github.com/EnochHe1/Summazon" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -38,7 +38,7 @@ const Portfolio = () => {
           </div>
           <h3>AtTune</h3>
           <div className="portfolio__item-button">
-            <a href="https://github.com/EnochHe1/AtTune" className="btn btn-primary" target="_blank">Github</a>
+            <a href="https://github.com/EnochHe1/AtTune" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -47,7 +47,7 @@ const Portfolio = () => {
           </div>
           <h3>Balancium</h3>
           <div className="portfolio__item-button">
-            <a href="https://github.com/EnochHe1/Balancium" className="btn btn-primary" target="_blank">Github</a>
+            <a href="https://github.com/EnochHe1/Balancium" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -56,7 +56,7 @@ const Portfolio = () => {
           </div>
           <h3>Pong</h3>
           <div className="portfolio__item-button">
-            <a href="https://github.com/EnochHe1/Pong" className="btn btn-primary" target="_blank">Github</a>
+            <a href="https://github.com/EnochHe1/Pong" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -65,7 +65,7 @@ const Portfolio = () => {
           </div>
           <h3>Nerdle</h3>
           <div className="portfolio__item-button">
-            <a href="https://github.com/EnochHe1/Nerdle" className="btn btn-primary" target="_blank">Github</a>
+            <a href="https://github.com/EnochHe1/Nerdle" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
         </article>
       </div>

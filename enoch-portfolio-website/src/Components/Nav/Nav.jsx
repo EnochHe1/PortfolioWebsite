@@ -8,10 +8,10 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from 'react';
 
 const Nav = () => {
-  const[activeNav, setActiveNav] = useState('#'); /* need states/local variables to determine the active Nav */
+  const[activeNav, setActiveNav] = useState('#home'); /* need states/local variables to determine the active Nav */
   return (
     <nav>
-      <a href="#" onClick={()=> setActiveNav('#')} className={activeNav === "#" ? 'active' : ''}><AiOutlineHome/></a> {/* # goes to top of the page */}
+      <a href="#home" onClick={()=> setActiveNav('#home')} className={activeNav === "#home" ? 'active' : ''}><AiOutlineHome/></a> {/* #home goes to top of the page */}
       <a href="#about" onClick={()=> setActiveNav('#about')} className= {activeNav === "#about" ? 'active' : '' }><AiOutlineUser/></a> {/* href="#some-id" would scroll to an element on the current page such as <div id="some-id"> */}
       <a href="#experience" onClick={()=> setActiveNav('#experience')} className= {activeNav === "#experience" ? 'active' : '' }><BiBook /></a>
       <a href="#services" onClick={()=> setActiveNav('#services')} className= {activeNav === "#services" ? 'active' : '' }><MdLaptopChromebook /></a>
