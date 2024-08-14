@@ -23,6 +23,7 @@
   --container-width-lg: 75%; /* for varying screen sizes, media queries */
   --container-width-md: 86%;
   --container-width-sm: 90%;
+  height: 100%;
 }
 
 html {
