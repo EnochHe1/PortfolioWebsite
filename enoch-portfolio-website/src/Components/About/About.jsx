@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
             <PiSuitcaseSimple className="about__icon"/>
               <h5>Experience</h5>
-                <small>3 Months Working</small> {/*reduce font-size by 1 with small html tag*/}
+                <small>4 Months Working</small> {/*reduce font-size by 1 with small html tag*/}
             </article> {/*article tag = independent, self-contained content. */}
             <article className="about__card">
             <LuFolderCheck className="about__icon"/>
@@ -31,17 +31,17 @@ const About = () => {
             </article> {/*article tag = independent, self-contained content. */}
             <article className="about__card">
             <FaAward className="about__icon"/>
-              <h5>Hackathons</h5>
-                <small>1 Award Won</small> {/*reduce font-size by 1 with small html tag*/}
+              <h5>Internships</h5>
+                <small>1 Completed</small> {/*reduce font-size by 1 with small html tag*/}
             </article> {/*article tag = independent, self-contained content. */}
           </div>
 
           <p>Hi there! My name is Enoch and I'm a student 
            at the University of Waterloo pursuing a major in computer science and a specialization in AI. 
-           I'm currently a Software QA Developer at
+           I've recently wrapped up my internship as a Software QA Developer at
            Polaris Intelligence, a company that specializes in business data analytics & marketing. 
-           When I'm not learning or coding, you can find me doing escape rooms,
-           watching movies with my friends, or swimming with the Trillium Y Masters Swim Club (TYMS). 
+           When I'm not learning or coding, you can find me doing escape rooms (Escape Games Canada is the best!!),
+           watching horror movies with my friends, or swimming at the YMCA. 
            I'm always eager to make new connections and explore new opportunities, so don't hesitate to reach out! </p>
 
            <a href="#contacts" className="btn btn-primary">Let's Talk!</a>
