@@ -20,7 +20,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/enoch-he-ab3600198" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a> {/*Target is _blank so it opens in a new tab */}
+        <a href="www.linkedin.com/in/enochhe05" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a> {/*Target is _blank so it opens in a new tab */}
         <a href="https://github.com/EnochHe1" target="_blank" rel="noopener noreferrer"><FaGithub /></a> {/*Target is _blank so it opens in a new tab */}
         <a href="https://www.instagram.com/enoch_he8/" target="_blank" rel="noopener noreferrer"><AiFillInstagram /></a> {/*Target is _blank so it opens in a new tab */}
       </div>

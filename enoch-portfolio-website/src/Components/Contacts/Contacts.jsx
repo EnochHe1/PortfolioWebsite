@@ -38,7 +38,7 @@ const Contacts = () => {
             <FaLinkedin className="contacts__option-icon"/>
             <h4>LinkedIn</h4>
             <h5>Enoch He</h5>
-            <a href="https://www.linkedin.com/in/enoch-he-ab3600198/" target="_blank" rel="noopener noreferrer">Send a Message</a> {/* _blank for target means open in new window */}
+            <a href="www.linkedin.com/in/enochhe05" target="_blank" rel="noopener noreferrer">Send a Message</a> {/* _blank for target means open in new window */}
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

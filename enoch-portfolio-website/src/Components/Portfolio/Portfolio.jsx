@@ -10,7 +10,7 @@ import Summazon from "../../Assets/Summazon.png";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Previous Work</h5>
+      <h5>My Personal Work</h5>
       <h2>Projects</h2>
 
       <div className="container portfolio__container">

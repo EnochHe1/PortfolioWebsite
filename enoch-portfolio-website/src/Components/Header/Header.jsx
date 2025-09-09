@@ -7,8 +7,10 @@ import Typewriter from './Typewriter';
 
 const Header = () => {
   const words = ["Aspiring Professional Software Engineer",
-                 "Computer Science + AI Student @ UWaterloo", 
-                 "Software QA Developer Co-op @ Polaris Intelligence (2024)"];
+                 "3rd Year Computer Science Student @ UWaterloo", 
+                 "Software Engineering Intern @ Marsh McLennan (2025)",
+                 "Software QA Developer Co-op @ Polaris Intelligence (2024)"
+                ];
 
   return (
     <header id="home"> 
@@ -16,7 +18,7 @@ const Header = () => {
         <h5>Hi, I'm</h5> 
         <h1>Enoch He</h1>
         <h5 className='text-light'>
-          <Typewriter words={words} speed={30} pause={2500} />
+          <Typewriter words={words} speed={30} pause={3000} />
         </h5>
         <CTA />
         <HeaderSocials />
